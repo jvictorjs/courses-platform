@@ -1,5 +1,5 @@
 import { useState, FormEvent } from "react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { MonitorPlay } from "phosphor-react";
 import { useCreateSubscriberMutation } from "../graphql/generated";
@@ -40,10 +40,10 @@ export function Subscribe() {
                     <p className="mt-4 text-grey-200 leading-relaxed">Subscribe to recieve news about my courses directly in your e-mail.</p>
                     <p className="mt-4 text-grey-200 leading-relaxed">Or click the button below to watch the lessons without subscription.</p>
                     <div className="mt-8 w-80">
-                        <a href="/content" className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-grey-500">
+                        <Link to={'/content'} className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-grey-500">
                             <MonitorPlay size={24} />
                             go to Course Content
-                        </a>
+                        </Link>
                     </div>
                 </div>
                 <div className="p-8 bg-grey-700 border border-grey-500 rounded">
