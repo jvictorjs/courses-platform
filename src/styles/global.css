@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-grey-900 text-grey-100;
+    -webkit-font-smoothing: antialiased;
+}
