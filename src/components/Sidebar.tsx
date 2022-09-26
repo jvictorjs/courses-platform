@@ -6,6 +6,17 @@ export function Sidebar() {
 
     console.warn('Sidebar', data)
 
+
+    if (!data) {
+        return (
+            <aside className="w-[348px] bg-grey-700 p-6 border-l border-grey-600">
+                <span className="font-bold text-xl pb-3 mb-3 border-b border-grey-600 block">
+                    <p>Loading...</p>
+                </span>
+            </aside>
+        )
+    }
+
     return (
         <aside className="w-[348px] bg-grey-700 p-6 border-l border-grey-600">
             <span className="font-bold text-2xl pb-3 mb-3 border-b border-grey-600 block">
