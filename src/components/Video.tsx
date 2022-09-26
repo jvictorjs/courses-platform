@@ -42,7 +42,7 @@ export function Video(props: VideoProps) {
                         <h1 className="text-2xl font-bold">
                             {data.lesson.title}
                         </h1>
-                        <p className="mt-4 text-grey-200 leading-relaxed">
+                        <p className="mt-4 text-grey-200 leading-relaxed whitespace-pre-wrap">
                             {data.lesson.description}
                         </p>
                         {data.lesson.teacher &&
@@ -69,15 +69,16 @@ export function Video(props: VideoProps) {
                             Discord Comunity <br />(coming soon)
                         </a>
                         */}
-                        <a href={`https://gist.github.com/jvictorjs/${data.lesson.githubGistId}`} target="_blank" className="p-4 text-sm bg-green-500 flex items-center text-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
-                            <GithubLogo size={24} />
-                            See the code
-                        </a>
-
                         <a href={`https://www.youtube.com/watch?v=${data.lesson.videoId}`} target="_blank" className="p-3 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-grey-500">
                             <YoutubeLogo size={42} />
                             Watch on YouTube
                         </a>
+
+                        <a href={`https://gist.github.com/jvictorjs/${data.lesson.githubGistId}`} target="_blank" className="p-5 text-sm bg-green-500 flex items-center text-center rounded font-bold uppercase gap-2 justify-center hover:bg-green-700 transition-colors">
+                            <GithubLogo size={24} />
+                            See the code
+                        </a>
+
                     </div>
                 </div>
 
