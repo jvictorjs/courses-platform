@@ -1,6 +1,6 @@
 # courses-platform
 
->This project was inspired by a 1 week course from https://www.rocketseat.com.br. The course is called "Ignite Lab". I did not create this from scratch, I just adapted it for my needs.
+>This project was inspired by a one week course from https://www.rocketseat.com.br. The course is called "Ignite Lab". I did not create this from scratch, I just adapted it for my needs.
 
 Online course plataform for my video lessons.
 
