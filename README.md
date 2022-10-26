@@ -2,7 +2,7 @@
 
 >This project was inspired by a one week course from https://www.rocketseat.com.br called "Ignite Lab". I didn't create it from scratch, I just adapted the original code for my needs
 
-Online course plataform for my video lessons.
+Online course platform for my video lessons.
 
 ### Language
 

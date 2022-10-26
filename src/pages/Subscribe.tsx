@@ -37,7 +37,7 @@ export function Subscribe() {
                     <h1 className="mt-8 text-[2.5rem] leading-tight">
                         Learn <b className="text-blue-500">JavaScript</b> and build your own applications with <strong className="text-blue-500"> Google Sheets</strong>. For free.
                     </h1>
-                    <p className="mt-4 text-grey-200 leading-relaxed">Subscribe to recieve news about my courses directly in your e-mail.</p>
+                    <p className="mt-4 text-grey-200 leading-relaxed">Subscribe to receive news about my courses directly in your e-mail.</p>
                     <p className="mt-4 text-grey-200 leading-relaxed">Or click the button below to watch the lessons without subscription.</p>
                     <div className="mt-8 w-80">
                         <Link to={'/content'} className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:bg-blue-500 hover:text-grey-500">
@@ -47,7 +47,7 @@ export function Subscribe() {
                     </div>
                 </div>
                 <div className="p-8 bg-grey-700 border border-grey-500 rounded">
-                    <strong className="text-2xl mb-6 block">Recieve news about my courses in your e-mail.</strong>
+                    <strong className="text-2xl mb-6 block">Receive news about my courses in your e-mail.</strong>
 
                     <form onSubmit={handleSubscribe} className="flex flex-col gap-2 w-full">
                         <input
